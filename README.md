@@ -139,33 +139,63 @@ void loop()
 ## Módulos
 #### esp_camera.h
 Librería encargada de configurar el esp32-cam.
+```c++
+#include "esp_camera.h"
+```
 
 #### WiFi.h
 Librería que conecta el esp32 a wifi.
+```c++
+#include <WiFi.h>
+```
 
 #### esp_timer.h
 Librería que permite usar el timer del esp32.
+```c++
+#include "esp_timer.h"
+```
 
 #### img_converters.h
 Librería para manipular imágenes.
+```c++
+#include "img_converters.h"
+```
 
 #### Arduino.h
 Librería para usar varios aditamentos del lenguaje de arduino.
+```c++
+#include "Arduino.h"
+```
 
 #### fb_gfx.h
 Librería que sirve para manipular las imágenes.
+```c++
+#include "fb_gfx.h"
+```
 
 #### soc/soc.h
 Librería para usar temporizadores internos.
+```c++
+#include "soc/soc.h"
+```
 
 #### soc/rtc_cntl_reg.h
 Librería para también relojes internos.
+```c++
+#include "soc/rtc_cntl_reg.h"
+```
 
 #### esp_http_server.h
 Librería para crear puntos de acceso con el esp32.
+```c++
+#include "esp_http_server.h"
+```
 
 #### PubSubClient.h
 Librería para hacer uso de la comunicación MQTT.
+```c++
+#include <PubSubClient.h>
+```
 
 ## Código completo
 ```c++
